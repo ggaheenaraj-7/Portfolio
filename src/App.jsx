@@ -59,7 +59,7 @@ return ( <main className="bg-[#120F18] text-white overflow-hidden"> <Navbar />
 }
 
 function App() {
-return ( <BrowserRouter> <Routes>
+return ( <BrowserRouter basename="/Portfolio"> <Routes>
 
     {/* Homepage */}
     <Route path="/" element={<HomePage />} />

@@ -122,13 +122,6 @@ export default function Hero() {
             This space is where they live.
           </p>
         </motion.div>
-
-        {/* Avatar */}
-        <img
-          src={avatar}
-          alt="GG Avatar"
-          className="mx-auto mt-20 h-[500px] w-auto object-contain"
-        />
     
         {/* Scroll Indicator */}
         <motion.div
